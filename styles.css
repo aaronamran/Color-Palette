@@ -8,7 +8,7 @@ body {
 }
 
 .first-div {
-    background-color: #869fa0;
+    background-color: #9db0b0;
     width: 25%;
     border: 5px solid #ccc;
     border-radius: 7px;
@@ -87,6 +87,6 @@ body {
 
     .color-picker {
         flex-grow: 1; /* Allow the color-picker to grow and take remaining space on larger screens */
-        margin-right: 10px; /* Add margin at the right for spacing */
+        margin-right: 0px; /* Add margin at the right for spacing */
     }
 }
