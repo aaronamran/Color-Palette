@@ -12,7 +12,7 @@ This is a simple color palette generator using jQuery, HTML, CSS and JavaScript 
 
 To use this color palette generator, click on the following link:
 
-https://browser-notepad-personal.vercel.app/
+https://color-palette-seven.vercel.app/
 
 ## JavaScript and jQuery Implementation
 
