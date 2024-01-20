@@ -7,6 +7,7 @@ This is a simple color palette generator using jQuery, HTML, CSS and JavaScript 
 - 'Generate Colors' button to generate random colors in each section.
 - 'Add Colors' to add new section with random colors into existing group of colors.
 - 'Delete Colors' to delete the last color section of the group.
+- Clicking on the individual color section reveals its RGB and Hexadecimal values, and copies them as text to be pasted elsewhere.
 
 ## Usage
 
