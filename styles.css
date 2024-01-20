@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cadetblue;
+}
+
+.first-div {
+    background-color: #869fa0;
+    width: 25%;
+    border: 5px solid #ccc;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 10px; /* Optional padding for better aesthetics */
+    box-sizing: content-box; /* Include padding and border in the element's total width and height */
+}
+
+.color-picker {
+    flex-grow: 1; /* Take up the remaining available space */
+    display: flex;
+    overflow: auto; /* Enable scrolling if content overflows */
+    box-sizing: content-box; /* Include padding and border in the element's total width and height */
+}
+
+.color-section {
+    display: inline-block;
+    width: 100%; /* Each section takes 25% of the container width */
+    height: 100vh;
+}
+
+.title {
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+}
+
+#h1title {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#h2title {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.section {
+    width: 100%; /* 25% of the viewport width */
+    height: 100vh; /* 70% of the viewport height */
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    margin: 10px;
+    margin-bottom: 15px;
+    width: 150px; /* Set a width for the button */
+    height: 50px; /* Set a height for the button */
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+#addButton {
+    background-color: darkseagreen;
+}
+
+#deleteButton {
+    background-color: #ea6464;
+}
+
+@media screen and (max-width: 767px) {
+    .section {
+        width: 100%; /* Each section takes 100% width on smaller screens */
+    }
+}
+
+@media screen and (min-width: 200px) {
+    .first-div {
+        flex-direction: column; /* Change to row layout for larger screens */
+    }
+
+    .color-picker {
+        flex-grow: 1; /* Allow the color-picker to grow and take remaining space on larger screens */
+        margin-right: 10px; /* Add margin at the right for spacing */
+    }
+}
